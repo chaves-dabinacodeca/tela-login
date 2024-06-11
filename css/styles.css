@@ -1,0 +1,150 @@
+/*html{ background: url(https://steamuserimages-a.akamaihd.net/ugc/2040728994808114844/671A99809194A02644F70B192122E041E99CEE11/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)} */
+
+/* RESETE GERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    border: none;
+
+
+}
+
+body {
+    height: 100vh;
+    background: url("../omori\ dark.webp"), center no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+
+input:focus {
+    outline: none;
+    font-size: .8rem;
+
+}
+
+a:hover {
+    color: #08558b;
+}
+
+/* container login */
+
+#login-container {
+    background-color: #ffffff00;
+    width: 25rem;
+    padding: 1.25rem 1.8rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
+/* AREA DO FORMULARIO */
+
+label,
+input {
+    display: block;
+    width: 100%;
+    text-align: left;
+
+
+}
+
+label {
+    font-weight: bold;
+    font-size: .8rem;
+    color: #fff;
+    ;
+}
+
+input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    color:black;
+    
+}
+
+input:focus {
+    border-bottom: 2px solid #08558b;
+}
+
+#forgot-pass {
+    display: block;
+    text-align: right;
+}
+
+input[type="submit"] {
+    background-color: rgb(68, 68, 76);
+    text-align: center;
+    color: #000000;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+    width: 40%;
+    margin: 30px auto 20px;
+    transition: width 1.5s;
+}
+
+input[type="submit"]:hover {
+    background: linear-gradient(#491029,#A83F41,#C8292F);
+    width: 100%;
+}
+
+/* SOCIAL CONTAINNER */
+
+#social-container,
+social-container,
+P {
+    margin: 1.25rem;
+
+}
+
+#social-container i {
+    width: 2.5rem;
+    height: 2.5rem;
+    color: #fff;
+    line-height: 2.5rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    transition: all 1.5s;
+    cursor: pointer;
+}
+
+
+/* COLOR ICONS */
+
+.fa-facebook-f:hover{
+    background: #08558b;
+    transform: scale(150%);
+
+}
+
+.fa-linkedin:hover{
+    background: #08558b; transform: scale(150%);
+
+}
+
+.fa-whatsapp:hover {
+    background: linear-gradient(#5ff475,#38c33a)bottom;
+     transform: scale(150%);
+
+}
+
+.fa-pinterest:hover {
+    background: #DF0019; transform: 
+    scale(150%);
+
+}
+
+.fa-instagram:hover{
+    background: linear-gradient(145deg,#F7B701,#F61934,#F402BC,#8809F1 )bottom;
+ transform: scale(150%);
+}
